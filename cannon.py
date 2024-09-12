@@ -18,7 +18,7 @@ speed = vector(0, 0)
 speed_target = vector(0, 0)
 targets = []
 
-# Se añade la función tap para responder al toque de la pantalla
+# Se añade la  vbfunción tap para responder al toque de la pantalla
 def tap(x, y):
     """Respond to screen tap."""
     if not inside(ball): 
@@ -77,10 +77,10 @@ def move():
 
     draw()
 
-    
+    # Usamos la funcion continue para hacer que el nivel no pare y se reposicionen los globos
     for target in targets:
             if not inside(target):
-                return
+               continue # En vez de return usamos continue
             
 
     ontimer(move, 50)
