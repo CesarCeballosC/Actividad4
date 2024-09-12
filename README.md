@@ -5,3 +5,5 @@
 - El juego nunca termina
 - Los globos se reposicionan 
 
+### Instrucciones:
+- Presionar click en algún de la pantalla para lanzar el proyectil
